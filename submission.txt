@@ -1,0 +1,21 @@
+# Menjalankan skrip utama
+python main.py
+
+# Menjalankan unit test extract
+python tests/test_extract.py
+
+#Menjalankan unit test transform
+python tests/test_transform.py
+
+#Menjalankan unit test load csv
+python tests/test_load_csv.py
+
+#Menjalankan unit test load sheet
+python tests/test_load_sheet.py
+
+# Menjalankan test coverage pada folder tests
+python -m coverage report
+
+# Url Google Sheets:
+https://docs.google.com/spreadsheets/d/1M5McHLszQp3lu0-tykrh36nP4QLfmgdEon41dOp42rM/edit?gid=0#gid=0
+
